@@ -1,0 +1,64 @@
+.bookings{
+    margin: 0 auto;
+    padding-left: 100px;
+    min-height: 400px;
+    width: 1100px;
+     display: flex;
+     align-items: center; 
+     justify-content: space-evenly;
+
+     .book-info{
+        width: 600px;
+        
+        h3{
+            text-align: left;
+            font-size: 40px;
+            width: 400px;
+            font-weight: bold;
+            font-family: 'Segoe UI';
+        }
+        p{
+            
+            text-align: left;
+            font-size: 13px;
+            font-family: 'Lucida Sans';
+            width: 400px;
+        }
+
+        .steps{
+            margin-top: 50px;
+             display: flex;
+             align-items: center; 
+             justify-content: space-evenly;
+
+             .step-text{
+                p{
+                    text-align: left;
+                    font-size: 13px;
+                    font-family: 'Lucida Sans';
+                    width: 400px;
+                    margin-bottom: 5px;
+                }
+                .header{
+                    text-align: left;
+                    font-size: 13px;
+                    font-weight: bold;
+                    font-family: 'Lucida Sans';
+                    width: 400px;
+                }
+             }
+        }
+
+     }
+
+     .book-img{
+        
+        img{
+            height: 600px;
+        }
+        
+     }
+
+
+
+}

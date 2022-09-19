@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app {
+  width: 100%;
+  min-height: 500px;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+nav .logo {
+  padding-left: 100px;
+}
+nav .logo a img {
+  height: 20px;
+}
+nav .links {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+nav .links a {
+  color: black;
+  text-decoration: none;
+  font-family: "Lucida Sans";
+}
+
+footer {
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+}
+footer .logo {
+  margin: 0 auto;
+  height: 30px;
+}
+footer p {
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Lucida Sans";
+  width: 300px;
+  color: grey;
+}
+footer .footer-social-icons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin: 0 auto;
+  width: 150px;
+  height: 30px;
+  color: black;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home {
+  margin-top: -120px;
+  min-height: 700px;
+  width: 100%;
+  background-image: url(../images/Decore.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home .home-text {
+  padding-top: 100px;
+}
+.home .home-text h1 {
+  text-transform: uppercase;
+  font-family: "Lucida Sans";
+  font-size: 15px;
+  color: #DF6951;
+}
+.home .home-text h3 {
+  font-size: 60px;
+  width: 450px;
+  font-weight: bold;
+  font-family: "Segoe UI";
+}
+.home .home-text p {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Lucida Sans";
+  width: 350px;
+}
+.home .home-text .buttons {
+  padding-left: 120px;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home .home-text .buttons .more img {
+  height: 100px;
+}
+.home .home-text .buttons .play {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home .home-text .buttons .play img {
+  height: 100px;
+}
+.home .home-text .buttons .play p {
+  font-size: 13px;
+  line-height: 20px;
+  color: grey;
+  font-family: "Lucida Sans";
+  width: 350px;
+}
+.home .hero-img img {
+  height: 500px;
+}
+
+.destinations {
+  margin: 0 auto;
+  min-height: 500px;
+  max-width: 1100px;
+}
+.destinations .des-title {
+  margin: auto 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.destinations .des-title h3 {
+  margin: 0 auto;
+  font-size: 30px;
+  width: 450px;
+  font-weight: bold;
+  font-family: "Segoe UI";
+}
+.destinations .des-title p {
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Lucida Sans";
+  width: 350px;
+}
+.destinations .des-imgs {
+  margin: auto 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.destinations .des-imgs .destination1 {
+  text-align: center;
+}
+.destinations .des-imgs .destination1 img {
+  height: 500px;
+}
+.destinations .des-imgs .destination1 .white-block {
+  margin-top: -245px;
+  position: relative;
+  text-align: center;
+}
+.destinations .des-imgs .destination1 .white-block img {
+  height: 100px;
+  width: 247px;
+}
+.destinations .des-imgs .destination1 .white-block .top-text {
+  position: absolute;
+  top: 10px;
+  left: 62px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 247px;
+}
+.destinations .des-imgs .destination1 .white-block .top-text p {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Lucida Sans";
+}
+.destinations .des-imgs .destination1 .white-block .bottom-text {
+  position: absolute;
+  top: 47px;
+  left: 62px;
+  width: 129px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.destinations .des-imgs .destination1 .white-block .bottom-text img {
+  margin-bottom: 15px;
+  margin-left: -10px;
+  height: 10px;
+  width: 10px;
+}
+.destinations .des-imgs .destination1 .white-block .bottom-text p {
+  margin-left: -15px;
+  font-size: 10px;
+  line-height: 20px;
+  font-family: "Lucida Sans";
+}
+
+.bookings {
+  margin: 0 auto;
+  padding-left: 100px;
+  min-height: 400px;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bookings .book-info {
+  width: 600px;
+}
+.bookings .book-info h3 {
+  text-align: left;
+  font-size: 40px;
+  width: 400px;
+  font-weight: bold;
+  font-family: "Segoe UI";
+}
+.bookings .book-info p {
+  text-align: left;
+  font-size: 13px;
+  font-family: "Lucida Sans";
+  width: 400px;
+}
+.bookings .book-info .steps {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bookings .book-info .steps .step-text p {
+  text-align: left;
+  font-size: 13px;
+  font-family: "Lucida Sans";
+  width: 400px;
+  margin-bottom: 5px;
+}
+.bookings .book-info .steps .step-text .header {
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Lucida Sans";
+  width: 400px;
+}
+.bookings .book-img img {
+  height: 600px;
+}
+
+.contact {
+  margin: 0 auto;
+  margin-top: 50px;
+  min-height: 200px;
+  width: 1100px;
+}
+.contact .subscribe-box {
+  margin: 0 auto;
+  border-radius: 15px 50px;
+  background: #DFD7F9;
+  padding: 20px;
+  width: 1000px;
+  height: 350px;
+  text-align: center;
+}
+.contact .subscribe-box h3 {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  font-size: 25px;
+  width: 800px;
+  color: #5E6282;
+  font-weight: bold;
+  font-family: "Segoe UI";
+}
+.contact .subscribe-box .text-box {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact .subscribe-box .text-box .text input[type=text] {
+  width: 421px;
+  min-height: 68px;
+  border-radius: 25px;
+  border: none;
+  background-color: white;
+  margin-top: 10px;
+  padding: 20px;
+  color: black;
+  font-size: 16px;
+}
+.contact .subscribe-box .text-box .submit-button {
+  margin: 0 auto;
+  height: 68px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 25px;
+  background-color: #FF946D;
+}
+.contact .subscribe-box .text-box .submit-button a {
+  color: white;
+  font-size: 13px;
+  font-family: "Lucida Sans";
+  text-decoration: none;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

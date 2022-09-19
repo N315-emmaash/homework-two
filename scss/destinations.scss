@@ -1,0 +1,99 @@
+.destinations{
+    margin: 0 auto;
+    min-height: 500px;
+    max-width: 1100px;
+    // background-color: red;
+
+    .des-title{
+        margin: auto 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        h3{
+            margin: 0 auto;
+            font-size: 30px;
+            width: 450px;
+            font-weight: bold;
+            font-family: 'Segoe UI';
+        }
+        p{
+            margin: 0 auto;
+            font-size: 13px;
+            line-height: 20px;
+            font-family: 'Lucida Sans';
+            width: 350px;
+        }
+        
+    }
+
+    .des-imgs{
+        margin: auto 0;
+        width: 100%;
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly;
+
+        .destination1{
+            text-align: center;
+            img{
+                height: 500px;
+            }
+
+            .white-block{
+                margin-top: -245px;
+                position: relative;
+                text-align: center;
+                img{
+                    height: 100px;
+                    width: 247px;
+                }
+
+                .top-text{
+                    position: absolute;
+                    top: 10px;
+                    left: 62px;
+                    padding: 10px;
+                     display: flex;
+                     align-items: center; 
+                     justify-content: space-between;
+                     width: 247px;
+
+                     p{
+                        font-size: 12px;
+                        line-height: 20px;
+                        font-family: 'Lucida Sans';
+                     }
+
+                }
+
+                .bottom-text{
+                    position: absolute;
+                    top: 47px;
+                    left: 62px;
+                    width: 129px;
+                     display: flex;
+                     align-items: center; 
+                     justify-content: space-evenly;
+
+                     img{
+                        margin-bottom: 15px;
+                        margin-left: -10px;
+                        height: 10px;
+                        width: 10px;
+                     }
+                     p{
+                        margin-left: -15px;
+                        font-size: 10px;
+                      line-height: 20px;
+                     font-family: 'Lucida Sans';
+                     }
+                }
+
+                
+            }
+
+
+        }
+        
+    }
+}

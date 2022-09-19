@@ -1,0 +1,79 @@
+.home{
+    margin-top: -120px;
+    min-height: 700px;
+    width: 100%;
+    background-image: url(../images/Decore.png);
+     display: flex;
+     align-items: center; 
+     justify-content: space-evenly;
+
+     .home-text{
+
+        padding-top: 100px;
+    
+        h1{
+            text-transform: uppercase;
+            font-family: 'Lucida Sans';
+            font-size: 15px;
+            color: #DF6951;
+        }
+        h3{
+            font-size: 60px;
+            width: 450px;
+            font-weight: bold;
+            font-family: 'Segoe UI';
+        }
+        p{
+            font-size: 13px;
+            line-height: 20px;
+            font-family: 'Lucida Sans';
+            width: 350px;
+        }
+
+        .buttons{
+            padding-left: 120px;
+            max-width: 450px;
+             display: flex;
+             align-items: center; 
+             justify-content: space-evenly;
+
+            .more{
+                img{
+                    height: 100px;
+                }
+                
+
+            }
+            .play{
+                display: flex;
+                 align-items: center; 
+                 justify-content: space-evenly;
+
+                img{
+                    height: 100px;
+                }
+                
+
+                 p{
+                    font-size: 13px;
+                    line-height: 20px;
+                    color: grey;
+                    font-family: 'Lucida Sans';
+                    width: 350px;
+                 }
+
+            }
+        }
+
+     }
+
+     .hero-img{
+        img{
+            height: 500px;
+        }
+
+     }
+
+    
+    
+}
